@@ -60,19 +60,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ellikamishra&layout=compact&theme=radical&langs_count=8&card_width=500" width="500"/>
 </p>
 
----
-## 🧩 Competitive Programming
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/ellika?theme=dark&font=Source%20Sans%20Pro&ext=heatmap" 
-       alt="LeetCode Stats" width="700"/>
-</p>
 
----
-
-## 📈 Activity Graph
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ellikamishra&theme=radical" width="700"/>
-</p>
 
 ---
 
