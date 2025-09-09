@@ -1,9 +1,9 @@
 # Hi there 👋, I'm Ellika Mishra!
 
 ## 🚀 About Me
-- 🎓 Master of Computer Science @ Texas A&M University (May 2026)
+- 🎓 **Master of Computer Science @ Texas A&M University (May 2026)**
 - 💻 **Software Developer Intern at Amazon (Summer 2025)** – worked on scalable backend systems with Go, Ruby, AWS, and DynamoDB
-- 🏦 Ex-Software Developer at **FinIQ Consulting** – built fullstack brokerage & trading platforms with 50k+ users using C++, C# (.NET Core), Angular, and TypeScript
+- 🏦 **Ex-Software Developer at FinIQ Consulting** – built fullstack brokerage & trading platforms with 50k+ users using C++, C# (.NET Core), Angular, and TypeScript
 - 🌱 Passionate about **backend engineering, distributed systems, and intelligent ML-powered applications**
 - 🎯 Career goal: Build robust **backend-first fullstack systems** with applied machine learning for real-world impact
 
