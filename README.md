@@ -1,54 +1,101 @@
 # Hi there 👋, I'm Ellika Mishra!
 
 ## 🚀 About Me
-- 🎓 **Master of Computer Science @ Texas A&M University (May 2026)**
-- 💻 **Software Developer Intern at Amazon (Summer 2025)** – worked on scalable backend systems with Go, Ruby, AWS, and DynamoDB
-- 🏦 **Ex-Software Developer at FinIQ Consulting** – built fullstack brokerage & trading platforms with 50k+ users using C++, C# (.NET Core), Angular, and TypeScript
-- 🌱 Passionate about **backend engineering, distributed systems, and intelligent ML-powered applications**
-- 🎯 Career goal: Build robust **backend-first fullstack systems** with applied machine learning for real-world impact
+- 🎓 **Master of Computer Science @ Texas A&M University (May 2026)**  
+- 💻 **Software Developer Intern at Amazon (Summer 2025)** – built scalable backend systems using Go, Ruby, AWS ECS, and React dashboards  
+- 🏦 **Ex-Software Developer at FinIQ Consulting** – developed low-latency trading systems and fullstack brokerage platforms  
+- 🧠 Strong focus on **backend engineering, distributed systems, and low-latency systems design**  
+- 🎯 Career goal: Build **high-performance backend systems with real-world impact (trading, infra, ML systems)**  
 
 ---
 
 ## 🛠️ Skills & Tools
-### Backend Development
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
-![.NET Core](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
-![Ruby on Rails](https://img.shields.io/badge/Ruby%20on%20Rails-CC0000?logo=rubyonrails&logoColor=white)
+
+### Backend & Systems
+- **Languages:** C++, Python, Go, Java, C#, Ruby  
+- **Frameworks:** .NET Core, Spring Boot, Ruby on Rails  
+- **Systems:** Multithreading, Event-driven systems, Low-latency design, Memory management  
+- **Networking:** TCP/IP, FIX Protocol, Client-server architecture  
 
 ### Fullstack
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
+- React, Angular, TypeScript, Node.js  
 
-### Machine Learning
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+### Data & ML
+- PyTorch, Scikit-learn, Pandas  
+- LLM + RAG pipelines, inference systems  
 
-### Databases & Cloud
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+### Databases & Infra
+- MySQL, MongoDB, Elasticsearch  
+- AWS (ECS), Docker, Linux, Git  
 
 ---
 
 ## 🌟 Featured Projects
-- 🛡️ **Adversarial Defense in Collaborative Vehicular Perception** → Robust uncertainty-aware system with PyTorch diffusion models and consensus mechanisms [[Code](https://github.com/ellikamishra/CVPerception/tree/main)]
-- 🍽️ **Meal Nutrition Analysis (Multi-Modal DL)** → CNN + BiLSTM + Attention achieving 30% better accuracy in calorie estimation
-- 📊 **Trading & Brokerage Platform (FinIQ)** → Multi-threaded C++/.NET backend + Angular frontend for 50k+ financial users
-- 🌐 **Amazon OneLife (Internship)** → Backend + data integration in Go & Ruby, scalable AWS ECS deployment, DynamoDB storage
+
+### ⚡ Exchange-Style Order Matching Engine
+**Tech:** C++, Linux, Event-driven systems, perf, GDB, Python  
+- Built a **deterministic order matching engine** using **price-time priority**  
+- Designed for **high-throughput, low-latency execution under heavy order flow**  
+- Developed Python replay tools to:
+  - Validate order book correctness  
+  - Measure latency (p50/p99) and throughput  
+- Focused on **cache efficiency, execution path optimization, and determinism**  
 
 ---
 
+### 📡 FIX Protocol Engine
+**Tech:** C++17, Linux, TCP/IP, FIX 4.2/4.4  
+- Implemented a **zero-allocation hot-path FIX parser** for ultra-low latency  
+- Built full **session-layer state machine**:
+  - Logon, Heartbeat, ResendRequest, SequenceReset  
+- Ensured:
+  - In-order delivery  
+  - Gap-fill recovery  
+  - Reliable trading communication  
+- Benchmarked latency using simulated counterparties  
 
+---
+
+### 🏦 Trading & Brokerage Platform (FinIQ)
+**Tech:** C++, C# (.NET Core), Angular, TypeScript  
+- Built **core trading infrastructure from scratch** for 50k+ users  
+- Developed:
+  - Market data ingestion (binary parsing, L2 order books)  
+  - Order lifecycle & portfolio systems  
+- Designed **low-latency multithreaded backend systems**  
+- Debugged production systems using **perf + GDB (latency spikes, race conditions)**  
+
+---
+
+### 🏥 Amazon OneLife Data Integration System
+**Tech:** Go, Ruby on Rails, AWS ECS, React  
+- Integrated **200k+ healthcare records** into distributed backend  
+- Built **high-volume ingestion + transformation pipelines**  
+- Developed **React dashboards** for data reconciliation  
+- Worked on **LLM + RAG pipelines for intelligent data interpretation**  
+
+---
+
+### 🔍 Job Hunter Tool (Custom Search Platform)
+**Tech:** React, Node.js / FastAPI, APIs, Search Filters  
+- Built a **job discovery platform** with customizable search parameters  
+- Features:
+  - Role, location, experience, and tech-stack based filtering  
+  - Aggregated job listings from multiple sources  
+  - Clean UI for efficient job exploration  
+- Designed for **high usability and fast filtering performance**  
+
+---
+
+### 🤖 Multimodal ML Projects
+- **Adversarial Defense in Vehicular Perception**  
+  - Robust uncertainty-aware system using diffusion models  
+
+- **Meal Nutrition Analysis**  
+  - CNN + BiLSTM + Attention model  
+  - Achieved **~30% improvement in calorie estimation accuracy**  
+
+---
 
 ## 📊 GitHub Stats
 <p align="center">
@@ -60,12 +107,16 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ellikamishra&layout=compact&theme=radical&langs_count=8&card_width=500" width="500"/>
 </p>
 
-
-
 ---
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/ellikamishra)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white)](https://ellikamishra.github.io/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ellikamishra@tamu.edu)
-![Visitor Count](https://komarev.com/ghpvc/?username=ellikamishra)
+- 🔗 [LinkedIn](https://linkedin.com/in/ellikamishra)  
+- 🌍 [Portfolio](https://ellikamishra.github.io/)  
+- 📧 ellikamishra@tamu.edu  
+
+---
+
+## 💡 What Makes Me Different
+- Strong blend of **low-level systems (C++) + scalable backend (Go, Python)**  
+- Experience in **real trading systems + distributed healthcare systems**  
+- Focus on **performance, determinism, and real-world impact**  
