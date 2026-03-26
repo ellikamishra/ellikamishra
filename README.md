@@ -122,9 +122,7 @@
   <a href="https://linkedin.com/in/ellikamishra">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://ellikamishra.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white"/>
-  </a>
+ 
   <a href="mailto:ellikamishra@tamu.edu">
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"/>
   </a>
