@@ -1,122 +1,138 @@
 # Hi there 👋, I'm Ellika Mishra!
 
-## 🚀 About Me
-- 🎓 **Master of Computer Science @ Texas A&M University (May 2026)**  
-- 💻 **Software Developer Intern at Amazon (Summer 2025)** – built scalable backend systems using Go, Ruby, AWS ECS, and React dashboards  
-- 🏦 **Ex-Software Developer at FinIQ Consulting** – developed low-latency trading systems and fullstack brokerage platforms  
-- 🧠 Strong focus on **backend engineering, distributed systems, and low-latency systems design**  
-- 🎯 Career goal: Build **high-performance backend systems with real-world impact (trading, infra, ML systems)**  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Backend+Engineer+%7C+Systems+Builder;Low-Latency+%26+Distributed+Systems;C%2B%2B+%7C+Go+%7C+Python;Building+Real-World+Impact+🚀" />
+</p>
 
 ---
 
-## 🛠️ Skills & Tools
+## 🚀 About Me
+- 🎓 **Master of Computer Science @ Texas A&M University (May 2026)**  
+- 💻 **Software Developer Intern at Amazon (Summer 2025)**  
+- 🏦 **Ex-Software Developer @ FinIQ Consulting** (Trading Systems)  
+- ⚡ Passionate about **low-latency systems, backend engineering, and distributed systems**  
+- 🎯 Goal: Build **high-performance backend systems (trading, infra, ML systems)**  
 
-### Backend & Systems
-- **Languages:** C++, Python, Go, Java, C#, Ruby  
-- **Frameworks:** .NET Core, Spring Boot, Ruby on Rails  
-- **Systems:** Multithreading, Event-driven systems, Low-latency design, Memory management  
-- **Networking:** TCP/IP, FIX Protocol, Client-server architecture  
+---
 
-### Fullstack
-- React, Angular, TypeScript, Node.js  
+## 🛠️ Tech Stack
 
-### Data & ML
-- PyTorch, Scikit-learn, Pandas  
-- LLM + RAG pipelines, inference systems  
+### 💻 Backend & Systems
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?logo=ruby&logoColor=white)
 
-### Databases & Infra
-- MySQL, MongoDB, Elasticsearch  
-- AWS (ECS), Docker, Linux, Git  
+### ⚙️ Frameworks & Systems
+![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?logo=springboot&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Rails-CC0000?logo=rubyonrails&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
+### 🌐 Fullstack
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+
+### ☁️ Databases & Cloud
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elastic-005571?logo=elasticsearch&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
 
 ---
 
 ## 🌟 Featured Projects
 
 ### ⚡ Exchange-Style Order Matching Engine
-**Tech:** C++, Linux, Event-driven systems, perf, GDB, Python  
-- Built a **deterministic order matching engine** using **price-time priority**  
-- Designed for **high-throughput, low-latency execution under heavy order flow**  
-- Developed Python replay tools to:
-  - Validate order book correctness  
-  - Measure latency (p50/p99) and throughput  
-- Focused on **cache efficiency, execution path optimization, and determinism**  
+**C++ | Linux | Event-Driven Systems**
+- Deterministic **price-time priority matching engine**
+- Optimized for **high-throughput & low latency**
+- Built replay system for **validation + latency benchmarking**
+- Focus: **cache locality, deterministic execution, performance profiling**
 
 ---
 
 ### 📡 FIX Protocol Engine
-**Tech:** C++17, Linux, TCP/IP, FIX 4.2/4.4  
-- Implemented a **zero-allocation hot-path FIX parser** for ultra-low latency  
-- Built full **session-layer state machine**:
-  - Logon, Heartbeat, ResendRequest, SequenceReset  
-- Ensured:
+**C++17 | TCP/IP | FIX 4.2/4.4**
+- Zero-allocation **hot-path FIX parser**
+- Full **session-layer state machine**
+- Guarantees:
   - In-order delivery  
-  - Gap-fill recovery  
-  - Reliable trading communication  
-- Benchmarked latency using simulated counterparties  
+  - Gap recovery  
+- Designed for **real trading communication systems**
 
 ---
 
 ### 🏦 Trading & Brokerage Platform (FinIQ)
-**Tech:** C++, C# (.NET Core), Angular, TypeScript  
-- Built **core trading infrastructure from scratch** for 50k+ users  
-- Developed:
-  - Market data ingestion (binary parsing, L2 order books)  
-  - Order lifecycle & portfolio systems  
-- Designed **low-latency multithreaded backend systems**  
-- Debugged production systems using **perf + GDB (latency spikes, race conditions)**  
+**C++ | .NET Core | Angular**
+- Built trading backend for **50k+ users**
+- Market data ingestion + **L2 order book reconstruction**
+- **Low-latency multithreaded architecture**
+- Debugged using **perf + GDB (tail latency, race conditions)**
 
 ---
 
-### 🏥 Amazon OneLife Data Integration System
-**Tech:** Go, Ruby on Rails, AWS ECS, React  
-- Integrated **200k+ healthcare records** into distributed backend  
-- Built **high-volume ingestion + transformation pipelines**  
-- Developed **React dashboards** for data reconciliation  
-- Worked on **LLM + RAG pipelines for intelligent data interpretation**  
+### 🏥 Amazon OneLife System
+**Go | Ruby | AWS ECS | React**
+- Processed **200k+ healthcare records**
+- Built ingestion + transformation pipelines
+- Designed dashboards for **data reconciliation**
+- Worked on **LLM + RAG integrations**
 
 ---
 
-### 🔍 Job Hunter Tool (Custom Search Platform)
-**Tech:** React, Node.js / FastAPI, APIs, Search Filters  
-- Built a **job discovery platform** with customizable search parameters  
-- Features:
-  - Role, location, experience, and tech-stack based filtering  
-  - Aggregated job listings from multiple sources  
-  - Clean UI for efficient job exploration  
-- Designed for **high usability and fast filtering performance**  
+### 🔍 Job Hunter Tool
+**React | FastAPI / Node.js**
+- Job discovery platform with **custom filters**
+- Multi-source aggregation  
+- Fast, clean UI for **efficient job search**
+- Focus: **UX + backend filtering performance**
 
 ---
 
-### 🤖 Multimodal ML Projects
-- **Adversarial Defense in Vehicular Perception**  
-  - Robust uncertainty-aware system using diffusion models  
-
-- **Meal Nutrition Analysis**  
-  - CNN + BiLSTM + Attention model  
-  - Achieved **~30% improvement in calorie estimation accuracy**  
+### 🤖 ML Projects
+- **Adversarial Vehicular Perception**
+- **Meal Nutrition Analysis (CNN + BiLSTM + Attention)**  
 
 ---
 
 ## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ellikamishra&show_icons=true&theme=radical" width="500"/>
-</p>
 
-## 🔥 Most Used Languages
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ellikamishra&layout=compact&theme=radical&langs_count=8&card_width=500" width="500"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ellikamishra&show_icons=true&theme=radical" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ellikamishra&theme=radical" height="160"/>
 </p>
 
 ---
 
-## 🌐 Connect with Me
-- 🔗 [LinkedIn](https://linkedin.com/in/ellikamishra)  
-- 🌍 [Portfolio](https://ellikamishra.github.io/)  
-- 📧 ellikamishra@tamu.edu  
+## 🔥 Most Used Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ellikamishra&layout=compact&theme=radical&langs_count=8"/>
+</p>
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/ellikamishra">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://ellikamishra.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white"/>
+  </a>
+  <a href="mailto:ellikamishra@tamu.edu">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
 ## 💡 What Makes Me Different
-- Strong blend of **low-level systems (C++) + scalable backend (Go, Python)**  
-- Experience in **real trading systems + distributed healthcare systems**  
-- Focus on **performance, determinism, and real-world impact**  
+- ⚡ Strong **C++ + low-latency systems** foundation  
+- 🧠 Experience in **trading systems + distributed backend systems**  
+- 🚀 Focus on **performance, determinism, and real-world scale**  
