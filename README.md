@@ -1,7 +1,7 @@
 # Hi there 👋, I'm Ellika Mishra!
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Backend+Engineer+%7C+Systems+Builder;Low-Latency+%26+Distributed+Systems;C%2B%2B+%7C+Go+%7C+Python;Building+Real-World+Impact+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Backend+Engineer+%7C+Systems+Builder;Low-Latency+%26+Distributed+Systems;C%2B%2B+%7C+Python+%7C+TypeScript+%7C+Go;Building+Real-World+Impact+🚀" />
 </p>
 
 ---
