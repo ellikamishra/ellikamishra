@@ -100,15 +100,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ellikamishra&show_icons=true&theme=radical" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ellikamishra&theme=radical" height="160"/>
-</p>
-
----
-
 ## 🔥 Most Used Languages
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ellikamishra&layout=compact&theme=radical&langs_count=8"/>
